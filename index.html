@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-commerce</title>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<!-- CSS Link -->
+	<link rel="stylesheet" href="assets/css/bootstrap5.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome5.min.css">
+	<!-- Carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<!-- Css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+   <div class="main">
+        <!-- Header Area -->
+	    <header class="header-area sticky-top">
+		   	<!-- Header Top -->
+		 	<div class="header-top d-flex align-items-center">
+		 		<div class="container">
+		 			<div class="header-links float-left">
+		 				<ul class="nav">
+		 					<li><a href="tell::8801234567890"><i class="fas fa-phone-alt"></i>+8801234567890</a></li>
+
+		 					<li><a href="mailto::admin@gmail.com"><i class="fas fa-envelope"></i>admin@gmail.com</a></li>
+
+		 					<li><i class="fas fa-map-marker-alt"></i>5240 Chirirbandar Dinajpur Bangladesh</li>
+		 				</ul>
+		 			</div>
+		 		     <div class="header-links float-right">
+		 		    	     <ul class="nav">
+		 					<li>
+		 						<select class="custom-select">
+		 							<option value="usd" selected>Bangla</option>
+		 							<option value="eur">English</option>
+		 							<option value="asd">Spanis</option>
+		 						</select>
+		 					</li>
+		 					<li>
+		 						<i class="fas fa-dollar-sign"></i>
+		 						<select class="custom-select">
+		 							<option value="usd" selected>USD</option>
+		 							<option value="eur">EUR</option>
+		 							<option value="asd">ASD</option>
+		 						</select>
+		 					</li>
+		 					<li><a href="login.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+		 					<li><a href="register.html"><i class="fas fa fa-user"></i>Register</a></li>
+		 			     </ul>
+		 		     </div>
+		 	    </div>
+		 	</div>
+			 	<!-- Header Mid -->
+		   	<div class="header-mid-area">
+		   		<div class="container">
+		   			<div class="row header-mid align-items-center justify-content-space-between">
+		   				<div class="col-md-3 col-sm-4">
+		   					<div class="header-logo">
+		   						<a href="index.html"><img src="assets/images/logo.png" alt="img"></a>
+		   					</div>
+		   				</div>
+		   				<div class="col-md-6 col-sm-8">
+		   					<div class="header-search-area">
+		   						<div class="product-cat float-left">
+		   							<select class="custom-select"> 
+		   								<option value="all">All Category</option>
+		   								<option value="phone">Phone</option>
+		   								<option value="laptop">Laptop</option>
+		   								<option value="watch">Watch</option>
+		   								<option value="sunglass">Sunglass</option>
+		   								<option value="headphone">HeadPhone</option>
+		   							</select>
+		   						</div>
+	   							<div class="product-search float-right">
+	   							    <form class="form" action="#" method="GET">
+	   								     <input type="text" name="product_search" placeholder="Search Product" class="form-control">
+	   								     <button class="product-search-btn"><i class="fas fa-search"></i></button>
+	   							    </form>
+	   						     </div>
+		   				     </div>
+		   				</div>
+		   				<div class="col-md-3 wishlist-area">
+	   					<div class="header-cart-count user-account">
+	   						<a href="account.html"><i class="fa fa-user-circle"></i><span>ACCOUNT</span></a>
+	   					</div>
+	   					<div class="header-wishlist header-cart-count ">
+	   						<a href="wishlist.html"><i class="far fa-heart"><span>3</span></i></a>
+	   					</div>
+	   					 <!-- header-cart -->
+	   				    <div class="header-cart header-cart-count ">
+	   						<a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#h_cartModal"><i class="fas fa-shopping-bag"><span>3</span></i></a>
+	   						  <!-- Cart Modal -->
+	   					     <div class="modal fade" id="h_cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">Your Cart</h5>
+							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							      </div>
+							      <div class="modal-body cart-modal-body">
+							      	<div class="cart-modal-header mb-4">
+							      		<h5>There are <span class="me">3 </span> Products</h5>
+							      	</div>
+							      	<!-- Cart Modal -->
+							        	<div class="cart-modal">
+							        		<!-- Singel Cart Item -->
+							        		<div class="single-cart-modal d-flex">
+							        			<div class="cart-modal-product d-flex">
+							        				<div class="cart-modal-img ">
+							        					<img src="assets/images/productCart/p1.png" alt="cart-img">
+							        				</div>
+							        				<div class="cart-modal-text ms-2">
+							        					<h5>Phone</h5>
+							        					<h5><span class="ml-1">1 X</span> $300.00USD</h5>
+							        				</div>
+							        			</div>
+							        			<div class="cart-modal-trash">
+							        				<a href="javascript:void(0)"><i class="fas fa-trash-alt"></i></a>
+							        			</div>
+							        		</div>
+							        		<!-- Singel Cart Item -->
+							        		<div class="single-cart-modal d-flex">
+							        			<div class="cart-modal-product d-flex">
+							        				<div class="cart-modal-img ">
+							        					<img src="assets/images/productCart/s1.png" alt="cart-img">
+							        				</div>
+							        				<div class="cart-modal-text ms-2">
+							        					<h5>Sunglass</h5>
+							        					<h5><span class="ml-1">1 X</span> $300.00USD</h5>
+							        				</div>
+							        			</div>
+							        			<div class="cart-modal-trash">
+							        				<a href="javascript:void(0)"><i class="fas fa-trash-alt"></i></a>
+							        			</div>
+							        		</div>
+							        		<!-- Singel Cart Item -->
+							        		<div class="single-cart-modal d-flex">
+							        			<div class="cart-modal-product d-flex">
+							        				<div class="cart-modal-img ">
+							        					<img src="assets/images/productCart/w1.png" alt="cart-img">
+							        				</div>
+							        				<div class="cart-modal-text ms-2">
+							        					<h5>Watch</h5>
+							        					<h5><span class="ml-1">1 X</span> $300.00USD</h5>
+							        				</div>
+							        			</div>
+							        			<div class="cart-modal-trash">
+							        				<a href="javascript:void(0)"><i class="fas fa-trash-alt"></i></a>
+							        			</div>
+							        		</div>
+							        	</div>
+							        	<div class="cart-modal-price">
+							        		<h5>Total Price:</h5>
+							        		<h5>$900USD</h5>
+							        	</div>
+							        	<div class="cart-modal-btn mt-4">
+							        		<a href="cart.html" class=" color_1_bg">View Cart</a>
+							        		<a href="checkout.html" class=" color_1_bg">Checkout</a>
+							        	</div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+	   				    </div>
+	   			     </div>
+		   			</div>
+		   		</div>
+		   	</div>
+		   	<!-- Header Button Area -->
+		    <div class="header-button ">
+		   	     <div class="container">
+			   	   	<div class="row navber-area justify-content-between">
+			   	   	    <div class="category_item col-lg-3 col-md-4 col-sm-4">
+			   	 	     	  <div class="nav-item cat_item_btn pe-3 ps-3"><i class="fas fa-bars"></i>Category
+				 	     	   	 <div class="cat_items">
+									<ul class="cat-item">
+								 	 	 <li><a href="#">Laptop</a></li>
+								 	 	 <li><a href="#">Watch</a></li>
+								 	 	 <li class="cat-dropdown dropdown">
+								 	 	 	<a href="#">Mobile <i class="fa fa-angle-right"></i> </a>
+								 	 	 	 <ul class="catSub_items">
+							 	 	 	  	     <li class="sub-menu"><a href="#" class="dropdown-item">Item 1<i class="fa fa-angle-right"></i></a>
+							 	 	 	  	     	    <ul class="catSub_items cat-sub-items">
+										 	 	 	  	     <li><a href="#" class="dropdown-item">Sub Item</a></li>
+										 	 	 	  	     <li><a href="#" class="dropdown-item">Sub Item</a></li>
+										 	 	 	  	     <li><a href="#" class="dropdown-item">Sub Item</a></li>
+										 	 	 	  	     <li><a href="#" class="dropdown-item">Sub Item</a></li>
+									 	 	 	         </ul>
+							 	 	 	  	     </li>
+							 	 	 	  	     <li><a href="#" class="dropdown-item">Item 2</a></li>
+							 	 	 	  	     <li><a href="#" class="dropdown-item">Item 3</a></li>
+							 	 	 	  	     <li><a href="#" class="dropdown-item">Item 4</a></li>
+						 	 	 	           </ul>
+								 	 	  </li>
+								 	 	  <li><a href="#">Sunglass</a></li>
+								 	 	  <li><a href="#">HeadPhone</a></li>
+								 	</ul>
+					                </div>
+			   	 	     	  </div>
+			   	 	    </div>
+				   	    <div class="navber col-lg-8 col-md-8 col-sm-8 ">
+				   	    	    <div class="mobile-menu-icon">
+				   	    	    	   <span id="mobile-menu"><i class="fas fa-bars"></i></span>
+				   	    	    </div>
+			   	     	  	<ul class="nav">
+				   		         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+				   		         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+				   		         <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+				   		         <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
+				   		         <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+				   		         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				   		         <li class="nav-item nav-dropdown dropdown"><a href="javascript:void(0)" class="nav-link">Page </a>
+				   		         		<ul class="nav-dropdown-item">
+					 	 	 	  	     <li class="nav-item"><a href="account.html"  class="dropdown-item">Account</a></li>
+					 	 	 	  	     <li class="nav-item"><a href="wishlist.html" class="dropdown-item">Wishlist</a></li>
+					 	 	 	  	     <li class="nav-item"><a href="thankYou.html" class="dropdown-item">Thank You</a></li>
+					 	 	 	  	     <li class="nav-item"><a href="shopSingle.html" class="dropdown-item">Single Shop</a></li>
+					 	 	 	  	     <li class="nav-item"><a href="blogSingle.html" class="dropdown-item">Single Blog</a></li>
+				 	 	 	         </ul>
+				   		         </li>
+				   		    </ul>
+				   	    </div>
+			   	     </div>
+		   	     </div>
+		    </div>
+	    </header>
+	  <!-- End Header -->
+	  <!-- Hero Area -->
+	  <section class="hero-area">
+	  	  <div class="container">
+				<div class="hero float-right owl-carousel owl-theme">
+					<div class="single-hero  row align-items-center">
+			  			<div class="hero-text col-md-6 col-sm-6">
+			  				  <h5>Up to 50% Off</h5>
+			  				  <h1>Your Favorite Laptop</h1>
+			  				  <p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Exercitationem officia debitis quisquam impedit consequatur neque.</p>
+			  				  <a href="#" class="btn color_1_bg">Shop Now</a>
+			  			</div>
+			  			<div class="hero-img col-md-6 col-sm-6">
+			  				<img src="assets/images/product/l-3.png" alt="img">
+			  			</div>
+		  		   </div>
+		  		   <div class="single-hero row align-items-center">
+			  			<div class="hero-text col-md-6 col-sm-6">
+			  				  <h5>Up to 50% Off</h5>
+			  				  <h1>Your Favorite Laptop</h1>
+			  				  <p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Exercitationem officia debitis quisquam impedit consequatur neque.</p>
+			  				  <a href="#" class="btn color_1_bg">Shop Now</a>
+			  			</div>
+			  			<div class="hero-img col-md-6 col-sm-6">
+			  				<img src="assets/images/product/l-3.png" alt="img">
+			  			</div>
+		  		   </div>
+				</div>
+		  </div>
+	  </section>
+	  <!-- End Hero Area -->
+	  <!-- Start Shop Category Area -->
+	  <section class="shop-category-items section-padding">
+           <div class="container">
+                <div class="row shop-category">
+                     <div class="section-title section-heading">
+                         <h2>Shop by Cat</h2>
+                      </div>
+                      <div class="shopCategory owl-carousel owl-theme owl-darg-disabled">
+                      	  <!-- Single shop Cat -->
+                      	<div class="single-shopCat">
+                      	   <div class="item text-center">
+                      	   	     <a href="shop.html" class="home-cate-img">
+                      	   	     	<div class="item-img">
+	                                       <img src="assets/images/shopCat/1.png" alt="cat-img">
+	                                       <span class="catt-title">Watch</span>
+	                                   </div>
+                                    </a>
+                                    <span class="catt-num">16 Items</span>
+                             </div>  
+                      	</div>
+                      	  <!-- Single shop Cat -->
+                      	<div class="single-shopCat">
+                      	   <div class="item text-center">
+                      	   	     <a href="shop.html" class="home-cate-img">
+                      	   	     	<div class="item-img">
+	                                       <img src="assets/images/shopCat/2.png" alt="cat-img">
+	                                       <span class="catt-title">HeadPhone</span>
+	                                   </div>
+                                    </a>
+                                    <span class="catt-num">8 Items</span>
+                             </div>  
+                      	</div>
+                      	  <!-- Single shop Cat -->
+                      	<div class="single-shopCat">
+                      	   <div class="item text-center">
+                      	   	     <a href="shop.html" class="home-cate-img">
+                      	   	     	<div class="item-img">
+	                                       <img src="assets/images/shopCat/3.png" alt="cat-img">
+	                                       <span class="catt-title">Phone</span>
+	                                   </div>
+                                    </a>
+                                    <span class="catt-num">20 Items</span>
+                             </div>  
+                      	</div>
+                      	  <!-- Single shop Cat -->
+                      	<div class="single-shopCat">
+                      	   <div class="item text-center">
+                      	   	     <a href="shop.html" class="home-cate-img">
+                      	   	     	<div class="item-img">
+	                                       <img src="assets/images/shopCat/4.png" alt="cat-img">
+	                                       <span class="catt-title">Watch</span>
+	                                   </div>
+                                    </a>
+                                    <span class="catt-num">19 Items</span>
+                             </div>  
+                      	</div>
+                      	  <!-- Single shop Cat -->
+                      	<div class="single-shopCat">
+                      	   <div class="item text-center">
+                      	   	     <a href="shop.html" class="home-cate-img">
+                      	   	     	<div class="item-img">
+	                                       <img src="assets/images/shopCat/5.png" alt="cat-img">
+	                                       <span class="catt-title">Sunglass</span>
+	                                   </div>
+                                    </a>
+                                    <span class="catt-num">10 Items</span>
+                             </div>  
+                      	</div>
+                      	  <!-- Single shop Cat -->
+                      	<div class="single-shopCat">
+                      	   <div class="item text-center">
+                      	   	     <a href="shop.html" class="home-cate-img">
+                      	   	     	<div class="item-img">
+	                                       <img src="assets/images/shopCat/6.png" alt="cat-img">
+	                                       <span class="catt-title">HeadPhone</span>
+	                                   </div>
+                                    </a>
+                                    <span class="catt-num">15 Items</span>
+                             </div>  
+                      	</div>
+                      
+                      </div>
+                </div>
+           </div>
+       </section>
+	  <!-- End Shop Category Area -->
+	  <!-- Start Top Product -->
+	  <section class="top_product_area section-padding">
+	  	   <div class="container">
+	  		   <div class="product_area_heading section-heading">
+	  		   	 <h2>Top Product</h2>
+	  		   	 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas alias nulla ducimus magnam in quibusdam.</p>
+	  		   </div>
+	  		   <div class="top_product row justify-content-center">
+	  		   	    <!-- Single Product -->
+	  				<div class="col-lg-3 col-md-4 col-sm-6 single-product text-center">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/w1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Watch</h4>
+	  						  <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div> 
+	  				 <!-- Single Product -->
+	  				<div class="col-lg-3 col-md-4 col-sm-6 single-product text-center">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/s1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Sunglass</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div> 
+	  				<!-- Single Product -->
+	  				<div class="col-lg-3 col-md-4 col-sm-6 single-product text-center">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/l1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Laptop</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-3 col-md-4 col-sm-6 single-product text-center">
+	  				    <div class="product_img">
+	  						   <a href="shopSingle.html" target="blank"><img src="assets/images/product/l2.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Laptop</h4>
+	  						  <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-3 col-md-4 col-sm-6 single-product text-center">
+	  				    <div class="product_img">
+	  						   <a href="shopSingle.html" target="blank"><img src="assets/images/product/p1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Phone</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-3 col-md-4 col-sm-6 single-product text-center">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/h3.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>HeadPhone</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-3 col-md-4 col-sm-6 single-product text-center">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/w1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Watch</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  			</div>
+	  	   </div>
+	  </section>
+	  <!-- End Top Product -->	  
+	  <!-- Start featured Product -->
+	  <section class="featured_product_area section-padding">
+	  	   <div class="container">
+	  		   <div class="featured_area_heading section-heading">
+	  		   	 <h2>Featured Product</h2>
+	  		   	 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas alias nulla ducimus magnam in quibusdam.</p>
+	  		   </div>
+	  		   <div class="featured_product_nav mb-3">
+			        <ul class="nav justify-content-center">
+			          <li class="nav-item btn color_1_bg" data-filter="all">All</li>
+			          <li class="nav-item btn color_1_bg" data-filter=".laptop">Laptop</li>
+			          <li class="nav-item btn color_1_bg" data-filter=".phone">Phone</li>
+			          <li class="nav-item btn color_1_bg" data-filter=".headphone">HeadPhone</li>
+			          <li class="nav-item btn color_1_bg" data-filter=".watch">Watch</li>
+			          <li class="nav-item btn color_1_bg" data-filter=".sunglass">Sunglass</li>        
+			        </ul>
+			   </div>
+	  		       <!-- Features Single Row -->
+	  		   <div class="featured_product row justify-content-center">
+	  		   	      <!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix watch">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/w1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Watch</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix phone">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/h1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>HeadPhone</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix laptop">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/l1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Laptop</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix sunglass">
+	  				    <div class="product_img">
+	  						   <a href="shopSingle.html" target="blank"><img src="assets/images/product/s2.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Sunglass</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix watch">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/p1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Phone</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  					 </div>
+  						 <div class="product_viwe">
+  						 	 <a href="#" title="Wishlist"><i class="far fa-heart"></i></a>
+  						     <a href="#" title="Viwe"><i class="far fa-eye"></i></a>
+  						     <a href="#" title="Compare"><i class="far fa-chart-bar"></i></a>
+  						 </div>
+	  				</div>
+	  		   	     <!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix headphone">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/h1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>HeadPhone</h4>
+	  						 <p>
+	  						 	<a href="#">Watch, </a>
+	  						 	<a href="#"> Mobile,</a>
+	  						 	<a href="#"> Electric</a>
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				 <!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix laptop">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/w4.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Watch</h4>
+	  						 <p>
+	  						 	<a href="#">Watch, </a>
+	  						 	<a href="#"> Mobile,</a>
+	  						 	<a href="#"> Electric</a>
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix phone">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/l3.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Laptop</h4>
+	  						 <p>
+	  						 	<a href="#">Watch, </a>
+	  						 	<a href="#"> Mobile,</a>
+	  						 	<a href="#"> Electric</a>
+	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix sunglass">
+	  				    <div class="product_img">
+	  						   <a href="shopSingle.html" target="blank"><img src="assets/images/product/s1.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>Sunglass</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  				<!-- Single Product -->
+	  				<div class="col-lg-4 col-md-4 col-sm-6 single-product text-center mix watch">
+	  				    <div class="product_img">
+	  						  <a href="shopSingle.html" target="blank"><img src="assets/images/product/h3.png" alt="product_img"></a>
+	  						  <div class="cart_overly_btn">
+		  					     <div class="overly">
+		  					     	  <a href="cart.html" class="color_1_bg">Add to Cart</a>
+		  					     </div>
+		  				    </div>
+	  					 </div>
+	  					 <div class="product_text pt-2 pb-2">
+	  						 <h4>HeadPhone</h4>
+	  						 <p>
+	  						 	<a href="#">laptop, </a>
+	  						 	<a href="#"> phone,</a>
+	  						 	<a href="#"> watch</a>	  						 </p>
+	  						 <p><span class="color_1">$500 </span><del>$550</del></p>
+	  						 <div class="product_rating">
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star"></i>
+	  						 	<i class="fas fa-star-half-alt"></i>
+	  						 </div>
+	  						</div>
+	  						<div class="product_viwe">
+	  						 	 <a href="wishlist.html" title="Wishlist"><i class="far fa-heart"></i></a>
+	  						     <a href="shopSingle.html" title="Viwe"><i class="far fa-eye"></i></a>
+	  						     
+	  						 </div>
+	  				</div>
+	  		   </div>
+	  	   </div>
+	  </section>
+	  <!-- End featured Product -->
+	  <!-- Start Product Timeing -->
+	  <section class="product-countdowning-area section-padding bg-dark">
+		   <div class="container">
+		  		<div class="row countdowning">
+		  			<div class="col-md-5 col-sm-12 single_timeing">
+		  				<div class="timeing_product_img">
+		  					 <img src="assets/images/product/h2.png" alt="hot_product">
+		  			   </div>
+		  		   </div>
+		  		   <div class="col-md-7 col-sm-12 single_timeing">
+		  		     <div class="countdown_area">
+		  			   	<div class="countdown">
+		  			   		 <ul id="example" class="nav">
+									  <li class="single_countdown"><span class="days time">00</span><p class="days_text time_text">Days</p></li>
+									  <li class="single_countdown"><span class="hours time">00</span><p class="hours_text time_text">Hours</p></li>
+									  <li class="single_countdown"><span class="minutes time">00</span><p class="minutes_text time_text">Minutes</p></li>
+									  <li class="single_countdown"><span class="seconds time ">00</span><p class="seconds_text time_text">Seconds</p></li>
+						      </ul>
+		  			   	</div>
+		  			   	<div class="countdown_text">
+		  			   		<h2>Hot Item This Week</h2>
+		  			   		<h5>New Collection UP 50% Off</h5>
+		  			   		<a href="#" class="btn color_1_bg">Shop Now</a>
+		  			   	</div>
+		  			   </div>
+		  		   </div>
+		  	   </div>
+		   </div>
+	  </section>
+	  <!-- End Product Timeing -->
+	  <!-- Start Blog Area -->
+	<section class="blog-area section-padding">
+	     <div class="container">
+	 		<div class="blog-header section-heading mb-4">
+	 			<h2>Our Blog</h2>
+	 			<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit Magnam, exercitationem.</p>
+	 		</div>
+	 		<div class="blog row">
+	 			<!-- Single Blog -->
+	 			<div class="col-md-4 col-sm-6 single-blog">
+	 				<div class="blog-img">
+	 					<a href="blogSingle.html" target="blank"><img src="assets/images/product/w1.png" alt="blog_img"></a>
+	 				</div>
+	 				<div class="blog-text pt-3">
+	 					 <a href="blogSingle.html" target="blank"><h5 class="color-333">Lorem ipsum dolor sit amet</h5></a>
+	 					 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab beatae, soluta placeat, ratione assumenda reiciendis.</p>
+	 					 <div class="blogPost-date d-flex">
+	 					 	  <a href="#"><i class="fa fa-calendar"></i><span class="ms-1">20-Dec-2021</span></a>
+	 					 	  <a href="#"><i class="far fa-comment"></i><span class="ms-1">10</span></a>
+	 					 </div>
+	 				</div>
+	 			</div>
+	 			<!-- Single Blog -->
+	 			<div class="col-md-4 col-sm-6 single-blog">
+	 				<div class="blog-img">
+	 					<a href="blogSingle.html" target="blank"><img src="assets/images/blog/p1.png" alt="blog_img"></a>
+	 				</div>
+	 				<div class="blog-text pt-3">
+	 					 <a href="blogSingle.html" target="blank"><h5 class="color-333">Lorem ipsum dolor sit amet</h5></a>
+	 					 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab beatae, soluta placeat, ratione assumenda reiciendis.</p>
+	 					 <div class="blogPost-date d-flex">
+	 					 	  <a href="#"><i class="fa fa-calendar"></i><span class="ms-1">20-Dec-2021</span></a>
+	 					 	  <a href="#"><i class="far fa-comment"></i><span class="ms-1">2</span></a>
+	 					 </div>
+	 				</div>
+	 			</div>
+	 			<!-- Single Blog -->
+	 			<div class="col-md-4 col-sm-6 single-blog">
+	 				<div class="blog-img">
+	 					<a href="single-post.html" target="blank"><img src="assets/images/blog/h1.png" alt="blog_img"></a>
+	 				</div>
+	 				<div class="blog-text pt-3">
+	 					 <a href="blogSingle.html" target="blank"><h5 class="color-333">Lorem ipsum dolor sit amet</h5></a>
+	 					 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab beatae, soluta placeat, ratione assumenda reiciendis.</p>
+	 					 <div class="blogPost-date d-flex">
+	 					 	  <a href="#"><i class="fa fa-calendar"></i><span class="ms-1">20-Dec-2021</span></a>
+	 					 	  <a href="#"><i class="far fa-comment"></i><span class="ms-1">1</span></a>
+	 					 </div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	</section>
+	  <!-- End Blog Area -->
+	  <!-- Start Letest Product Area -->
+	  <section class="letest_product_area section-padding">
+	  	  <div class="container">
+	  		  <div class="letest-product row justify-content-center" >
+	  			<!-- Single Letest Product -->
+	  			 <div class="col-md-4 col-sm-6 single-lProduct">
+	  				   <div class="lProduct">
+	  					     <h3>Letest Product</h3>
+					          <div class="lProduct_item owl-carousel">
+					               <div class="single-lProduct-item ">
+								     <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex border-bottom">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/h1.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>HeadPhone</h6>
+									    	  <h5>$200</h5>
+									    </div>
+								    </a>  
+								     <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex border-bottom">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/l2.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>Laptop</h6>
+									    	  <h5>$400</h5>
+									    </div>
+								    </a> 
+								    <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/s2.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>Sunglass</h6>
+									    	  <h5>$200</h5>
+									    </div>
+								    </a>
+					  		     </div>
+						  		<div class="single-lProduct-item ">
+									    <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex border-bottom">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/l3.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Laptop</h6>
+										    	  <h5>$300</h5>
+										    </div>
+									   </a>  
+									   <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex border-bottom">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/w1.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Watch</h6>
+										    	  <h5>$200</h5>
+										    </div>
+									   </a> 
+									   <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/p1.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Phone</h6>
+										    	  <h5>$200</h5>
+										    </div>
+									   </a>
+						  		</div>    
+					          </div>
+	  			        </div>
+	  		      </div>
+	  		     <!-- Single Top Product -->
+	  			<div class="col-md-4 col-sm-6 single-lProduct">
+	  				<div class="lProduct">
+	  					  <h3>Top Rated Product</h3>
+					      <div class="lProduct_item owl-carousel owl-drag">
+					           <div class="single-lProduct-item ">
+								      <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex border-bottom">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/s1.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>Sunglass</h6>
+									    	  <h5>$100</h5>
+									    </div>
+								    </a>  
+								     <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex border-bottom">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/h1.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>HeadPhone</h6>
+									    	  <h5>$200</h5>
+									    </div>
+								    </a> 
+								     <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/l3.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>Laptop</h6>
+									    	  <h5>$300</h5>
+									    </div>
+								     </a>
+					  		  </div>
+						  	  <div class="single-lProduct-item ">
+									    <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex border-bottom">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/l3.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Laptop</h6>
+										    	  <h5>$300</h5>
+										    </div>
+									   </a>  
+									   <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex border-bottom">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/w2.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Watch</h6>
+										    	  <h5>$100</h5>
+										    </div>
+									   </a> 
+									   <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/p1.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Phone</h6>
+										    	  <h5>$200</h5>
+										    </div>
+									   </a>
+						  	  </div>    
+					      </div>
+	  			     </div>
+	  		     </div>
+	  		      <!-- Single Top Sale -->
+	  			<div class="col-md-4 col-sm-6 single-lProduct">
+	  				<div class="lProduct">
+	  					  <h3>Top Sale</h3>
+					     <div class="lProduct_item owl-carousel owl-drag">
+					           <div class="single-lProduct-item ">
+								     <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex border-bottom">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/w1.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>Watch</h6>
+									    	  <h5>$100</h5>
+									    </div>
+								    </a>  
+								     <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex border-bottom">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/p1.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>Phone</h6>
+									    	  <h5>$200</h5>
+									    </div>
+								    </a> 
+								     <!-- Single lProduct Items -->
+								    <a href="#" class="d-flex ">
+									    <div class="single-lProduct-img">
+									    	 <img src="assets/images/product/h3.png" alt="img">
+									    </div>
+									    <div class="single-lProduct-text">
+									    	  <h6>HeadPhone</h6>
+									    	  <h5>$200</h5>
+									    </div>
+								    </a>
+					  		  </div>
+						  	  <div class="single-lProduct-item ">
+									    <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex border-bottom">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/p1.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Phone</h6>
+										    	  <h5>$200</h5>
+										    </div>
+									   </a>  
+									   <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex border-bottom">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/s1.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Sunglass</h6>
+										    	  <h5>$100</h5>
+										    </div>
+									   </a> 
+									   <!-- Single lProduct Items -->
+									   <a href="#" class="d-flex">
+										    <div class="single-lProduct-img">
+										    	 <img src="assets/images/product/w3.png" alt="img">
+										    </div>
+										    <div class="single-lProduct-text">
+										    	  <h6>Watch</h6>
+										    	  <h5>$100</h5>
+										    </div>
+									   </a>
+						  	  </div>    
+					     </div>
+	  			     </div>
+	  		     </div>
+
+	  	     </div>
+	  	  </div>
+	  </section>
+	  <!-- End Letest Product Area -->
+	  <!-- Start shop-services Area -->
+	<section class="shop-services section-padding">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-3 col-md-3 col-sm-3 single-shop-service">
+					<div class="shop-service">
+						<i class="fa fa-dollar-sign"></i>
+						<h4>Cash On</h4>
+						<p>Cash on delivery</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 single-shop-service">
+					<div class="shop-service">
+						<i class="fa fa-truck-moving"></i>
+						<h4>Free Delivery</h4>
+						<p>Orders over $300</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 single-shop-service">
+					<div class="shop-service">
+						<i class="far fa-clock"></i>
+						<h4>Fast Deliveriy</h4>
+						<p>30 minute deliveriy</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 single-shop-service">
+					<div class="shop-service">
+						<i class="fa fa-sync"></i>
+						<h4>Free Return</h4>
+						<p>30 days returns</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <!-- End shop-services Area Area -->
+	 <!-- Start Footer Area -->
+	 <footer class="footer-area">
+		  <div class="container">
+		 		<div class="footer row section-padding">
+		 			<!-- Single Footer -->
+		 			<div class="col-md-4 col-sm-6 single-footer">
+		 				<div class="footer-about ">
+		 					<h5 class="font-weight-bold">About Us</h5>
+		 					<div class="footer-text mt-3">
+		 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ad!</p>
+		 						<p><i class="fas fa-map-marker-alt"></i>Dinajpur, Rangpur, Bangladesh </p>
+		 						<p><a href="tell:+8801234567890"><i class="fa fa-phone-alt"></i>+8801234567890 </a></p>
+		 						<p><a href="mailto:admin@gmail.com"><i class="fa fa-envelope"> </i>admin@gmail.com </a></p>
+		 					</div>
+		 				</div>
+		 			</div>
+		 			<!-- Single Footer -->
+		 			<div class="col-md-2 col-sm-3 single-footer footer-pages">
+		 				<div class="footer-page">
+		 					<h5 class="font-weight-bold">Page</h5>
+		 					<div class="footer-text mt-3">
+		 						<ul class="p-0">
+		 							<li><a href="index.html">Home</a></li>
+		 							<li><a href="about.html">About</a></li>
+		 							<li><a href="contact.html">Contact</a></li>
+		 							<li><a href="shop.html">Shop</a></li>
+		 							<li><a href="cart.html">Cart</a></li>
+		 							<li><a href="account.html">Account</a></li>
+		 						</ul>
+		 					</div>
+		 				</div>
+		 			</div>
+		 			<!-- Single Footer -->
+		 			<div class="col-md-2 col-sm-3 single-footer footer-cats">
+		 				<div class="footer-cat ">
+		 					<h5 class="font-weight-bold">Categories</h5>
+		 					<div class="footer-text mt-3">
+		 						<ul class="p-0">
+		 							<li><a href="#">Laptop</a></li>
+		 							<li><a href="#">Smartphone</a></li>
+		 							<li><a href="#">Watch</a></li>
+		 							<li><a href="#">Sunglasses</a></li>
+		 							<li><a href="#">HeadPhone</a></li>
+		 						</ul>
+		 					</div>
+		 				</div>
+		 			</div>
+		 			<!-- Single Footer -->
+		 			<div class="col-md-4 col-sm-8 single-footer subscriber-area">
+		 				<h5 class="font-weight-bold"> Newsletter Subscribe</h5>
+		 				<div class="footer-subscriber">
+		 				   <div class="subscriber-text mt-3">
+		 					   <p> Subscribe to our newsletter and get 20% off your first purchase</p>
+		 				   </div>
+		 				   <div class="subscriber-form mt-2" >
+		 					   <form  method="POST">
+		 						   <input type="email" name="subscrib_email" placeholder="Enter Your Email" class="form-control">
+		 						   <input type="submit" name="subscrib_btn" class="btn color_1_bg" value="Subscribe">
+		 					   </form>
+		 				   </div>
+			 		   </div>
+		 				<div class="footer-social mt-3">
+		 					<ul class="nav justify-content-around">
+		 						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+		 						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+		 						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+		 						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+		 						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+		 					</ul>
+		 				</div>
+		 			</div>
+		 		</div>
+		  </div>
+	 	  <div class="footer-copy">
+		 	  <div class="container">
+		 		  <div class="copyright-text row justify-content-between align-items-center">
+		 		  	   <div class="copy-text col-md-6 col-sm-8">
+		 				    <p>&copy; All Right Reservied | 2021 <a href="#">Mahmudul Hasan</a></p>
+		 		      </div>
+		 			   <div class="payment-card col-md-6 col-sm-8">
+		 				   <div class="card-img">
+		 					    <a href="checkout.html"><img src="assets/images/payment_card/pay.jpg" alt="payment-card"></a>
+		 				   </div>
+		 			   </div>
+		 		  </div>
+
+		 	  </div>
+	 	  </div>
+	 	  <!-- Back to top btn -->
+	 	  <div class="backTOtop">
+	 	  	<a href="javascript:void(0)" class="btn color_1_bg">
+	 	  		<i class="fas fa-chevron-up"></i>
+	 	  	</a>
+	 	  </div>
+	 </footer>
+	 <!-- End Footer Area -->
+
+  </div>
+   <!-- JS Link -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <!-- Plugin -->
+  <!-- countdown -->
+  <script src="assets/vendor/jquery.countdown.min.js"></script>
+  <!-- Carousel -->
+  <script src="assets/vendor/owl.carousel.min.js"></script>
+  <!-- mixitup -->
+  <script src="assets/vendor/mixitup.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
