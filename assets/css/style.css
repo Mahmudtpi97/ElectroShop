@@ -148,7 +148,7 @@ textarea{resize: revert}
 .cart-modal-header h5 {
     font-size: 1rem;
     border-bottom: 1px dashed #333;
-    width: 160px;
+    width: 170px;
 }
 .cart-modal-header h5 span{color: #fa983a;}
 .cart-modal-img img {
